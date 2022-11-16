@@ -29,7 +29,7 @@ OS := $(shell uname)
 # ARCH= -gencode arch=compute_30,code=sm_30
 
 # Tesla A100 (GA100), DGX-A100, RTX 3080
-# ARCH= -gencode arch=compute_80,code=[sm_80,compute_80]
+ARCH= -gencode arch=compute_80,code=[sm_80,compute_80]
 
 # Tesla V100
 # ARCH= -gencode arch=compute_70,code=[sm_70,compute_70]
@@ -44,7 +44,7 @@ OS := $(shell uname)
 # ARCH= -gencode arch=compute_61,code=sm_61 -gencode arch=compute_61,code=compute_61
 
 # GP100/Tesla P100 - DGX-1
-ARCH= -gencode arch=compute_60,code=sm_60
+# ARCH= -gencode arch=compute_60,code=sm_60
 
 # For Jetson TX1, Tegra X1, DRIVE CX, DRIVE PX - uncomment:
 # ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
