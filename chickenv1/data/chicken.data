@@ -1,0 +1,5 @@
+classes = 3
+train = chickenv1/data/training.txt
+valid = chicken/data/valid.txt
+names = chicken/data/chicken3/chicken.names
+backup = backup
